@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
     }
     else if (req.url == '/about') {
         res.statusCode = 200;    
-        res.end('<h1> About of my  firsr server </h1> <p> This is specifically for my about </p>');
+        res.end('<h1> About of my  firsr server </h1> <p> This is specifically for my about </p> <br> <p> added this line just for hecking  </p>');
     }
     else{
             res.statusCode = 404;
